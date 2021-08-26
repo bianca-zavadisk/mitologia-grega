@@ -1,0 +1,260 @@
+:root {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../img/mitologia-grega-1.jpg) center / cover no-repeat;
+    height: 25rem;
+}
+
+.cabecalho__imagem {
+    width: 100%;
+}
+
+.titulo__principal {
+    font-size: 8rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    font-weight: 900;
+    margin: 1.8rem 0;
+    color: #FFF;
+    text-shadow: #000 1.5px 1.5px 1.5px, #FFF -1.5px -1.5px 1.5px;
+}
+
+main {
+    background: #FCFCFC;
+}
+
+.negrito {
+    font-weight: 700;
+}
+
+.sobre__mitologia, .seres-mitologicos, .homero-hesiodo, .deuses, .videos {
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+}
+
+.sobre__titulo, .seres-mitologicos__titulo, .homero-hesiodo__titulo, .deuses__titulo, .videos__titulo {
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sobre__texto, .seres-mitologicos__sobre, .homero-hesiodo__texto, .superiores__info, .inferiores__info {
+    margin-bottom: 1rem;
+}
+
+.container__imagem {
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+}
+
+.sobre__imagem {
+    width: 45%;
+    margin-top: 1.5rem;
+}
+
+.homero__imagem, .hesiodo__imagem {
+    width: 35%;
+}
+
+.homero-hesiodo__imagens {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 15%;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.seres-mitologicos__lista, .superiores__lista, .inferiores__lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15%;
+}
+
+.seres-mitologicos__item {
+    width: 40%;
+    padding: 1.2rem 2rem;
+}
+
+.item__tiulo {
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.sobre__texto, .item__descricao, .deuses__descricao, .homero-hesiodo__texto, .superiores__info, .inferiores__info {
+    line-height: 1.5rem;
+}
+
+.item__imagem {
+    width: 70%;
+    margin-top: 1.5rem;
+    vertical-align: bottom;
+}
+
+.deuses__descricao {
+    margin-bottom: 1rem;
+}
+
+.deuses__olimpo {
+    float: right;
+    margin-left: 1.7rem;
+    margin-bottom: 1.5rem;
+    margin-right: 15%;
+    width: 40%;
+}
+
+.deuses2__imagem {
+    clear: right;
+    width: 85%;
+}
+
+.deuses__superiores, .deuses__inferiores {
+    clear: right;
+}
+
+.superiores__titulo, .inferiores__titulo {
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 1rem 0;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.superiores__lista, .inferiores__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.superiores__item, .inferiores__item {
+    display: grid;
+    grid-template-rows: 60px 5rem 15rem;
+    width: 40%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.superiores__nome, .inferiores__nome {
+    font-size: 1.5em;
+    margin: .8rem;
+    margin-left: 0;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.zeus {
+    background: url(../img/deuses-zeus.jpg) top / cover no-repeat;
+}
+
+.hera {
+    background: url(../img/deuses-hera.jpg) top / cover no-repeat;
+}
+
+.ares {
+    background: url(../img/deuses-ares.jpg) top / cover no-repeat;
+}
+
+.poseidon {
+    background: url(../img/deuses-poseidon.jpg) top / cover no-repeat;
+}
+
+.artemis {
+    background: url(../img/deuses-artemis.jpg) top / cover no-repeat;
+}
+
+.apolo {
+    background: url(../img/deuses-apolo.jpg) top / cover no-repeat;
+}
+
+.atena {
+    background: url(../img/deuses-atena.jpg) top / cover no-repeat;
+}
+
+.afrodite {
+    background: url(../img/deuses-afrodite.jpg) top / cover no-repeat;
+}
+
+.hefesto {
+    background: url(../img/deuses-hefesto.jpg) top / cover no-repeat;
+}
+
+.demeter {
+    background: url(../img/deuses-demeter.jpg) top / cover no-repeat;
+}
+
+.hermes {
+    background: url(../img/deuses-hermes.jpg) top / cover no-repeat;
+}
+
+.hestia {
+    background: url(../img/deuses-hestia.jpg) top / cover no-repeat;
+}
+
+.superiores__info, .inferiores__info {
+    font-size: 1.25em;
+}
+
+.inferiores__item {
+    width: 30%;
+}
+
+.hades {
+    background: url(../img/deuses-hades.jpg) top / cover no-repeat;
+}
+
+.dionisio {
+    background: url(../img/deuses-dionisio.jpg) top / cover no-repeat;
+}
+
+.pa {
+    background: url(../img/deuses-pa.jpg) top / cover no-repeat;
+}
+
+.conteiner__videos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.videos__titulo {
+    text-align: center;
+    margin-top: 3.5em;
+}
+
+.videos {
+    margin-right: 12%;
+}
+
+.video__player {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.rodape {
+    background: #020818;
+    display: flex;
+    justify-content: center;
+    clear: right;
+}
+
+.rodape__imagem {
+    margin: 1.8rem;
+}
